@@ -19,19 +19,25 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/e3ead522-e0eb-4742-a3af-dad97330c16d/files/ebfad48a-a532-427a-8a32-e108fc6d50a5.jpg"
+          alt="Math universe"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          MATHUP
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Мобильное приложение, которое делает математику понятной и увлекательной — для школьников и студентов
         </p>
+        <a
+          href="#download"
+          className="inline-block mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Скачать бесплатно
+        </a>
       </div>
     </div>
   );
